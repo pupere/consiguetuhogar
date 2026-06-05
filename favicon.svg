@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Fondo azul oscuro redondeado -->
+  <rect width="32" height="32" rx="6" fill="#1a3353"/>
+  <!-- Tejadito amarillo -->
+  <polygon points="16,5 27,14 5,14" fill="#f5c842"/>
+  <!-- Cuerpo de la casa en azul claro -->
+  <rect x="8" y="14" width="16" height="13" rx="1" fill="#2d6ab4"/>
+  <!-- Puerta -->
+  <rect x="13" y="20" width="6" height="7" rx="1" fill="#1a3353"/>
+</svg>
