@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ConsigueTuHogar ‚Äî Encuentra al experto que consigue tu mejor hipoteca</title>
-  <meta name="description" content="Analizamos tu caso y te conectamos con el especialista hipotecario perfecto para ti. Comparativa de m√°s de 20 bancos y acompa√±amiento hasta la firma." />
+  <title>ConsigueTuHogar — Encuentra al experto que consigue tu mejor hipoteca</title>
+  <meta name="description" content="Analizamos tu caso y te conectamos con el especialista hipotecario perfecto para ti. Comparativa de más de 20 bancos y acompañamiento hasta la firma." />
   <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="ConsigueTuHogar ‚Äî Tu mejor hipoteca, con el experto adecuado" />
-  <meta property="og:description" content="No buscamos la hipoteca perfecta. Buscamos al experto perfecto para encontr√°rtela." />
+  <meta property="og:title" content="ConsigueTuHogar — Tu mejor hipoteca, con el experto adecuado" />
+  <meta property="og:description" content="No buscamos la hipoteca perfecta. Buscamos al experto perfecto para encontrártela." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://consiguetuhogar.com" />
+  <meta property="og:image" content="https://consiguetuhogar.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://consiguetuhogar.com/og-image.png" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
@@ -51,7 +57,7 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ‚îÄ‚îÄ NAV ‚îÄ‚îÄ */
+    /* ── NAV ── */
     nav {
       position: sticky; top: 0; z-index: 100;
       background: rgba(255,255,255,.94);
@@ -77,7 +83,7 @@
     }
     .nav-cta:hover { background: var(--blue-mid); }
 
-    /* ‚îÄ‚îÄ HERO ‚îÄ‚îÄ */
+    /* ── HERO ── */
     .hero {
       background: var(--blue);
       padding: clamp(3rem, 8vw, 5.5rem) clamp(1.25rem, 5vw, 3rem) 0;
@@ -151,7 +157,7 @@
     .badge-text strong { display: block; font-size: 1.1rem; font-weight: 800; color: var(--blue); }
     .badge-text span { font-size: .78rem; color: var(--gray-500); }
 
-    /* ‚îÄ‚îÄ PROOF BAR ‚îÄ‚îÄ */
+    /* ── PROOF BAR ── */
     .proof-bar {
       background: var(--sand);
       border-bottom: 1px solid var(--sand-dark);
@@ -168,7 +174,7 @@
     }
     .proof-dot { color: var(--gold-light); font-size: 1.1rem; }
 
-    /* ‚îÄ‚îÄ SECCIONES COMUNES ‚îÄ‚îÄ */
+    /* ── SECCIONES COMUNES ── */
     section { padding: clamp(4rem, 9vw, 7rem) clamp(1.25rem, 5vw, 3rem); }
     .section-inner { max-width: 1120px; margin: 0 auto; }
     .eyebrow {
@@ -189,7 +195,7 @@
     .center { text-align: center; }
     .center .section-sub { margin: 0 auto; }
 
-    /* ‚îÄ‚îÄ CONCEPTO (split) ‚îÄ‚îÄ */
+    /* ── CONCEPTO (split) ── */
     .concept { background: #fff; }
     .split {
       display: grid; grid-template-columns: 1fr 1fr;
@@ -208,7 +214,7 @@
       font-size: .95rem; color: var(--gray-700); line-height: 1.55;
     }
     .check-list li::before {
-      content: '‚úì';
+      content: '✓';
       width: 22px; height: 22px; border-radius: 50%;
       background: var(--green-pale); color: var(--green);
       display: flex; align-items: center; justify-content: center;
@@ -223,7 +229,7 @@
     }
     .split-cta:hover { background: var(--blue-mid); }
 
-    /* ‚îÄ‚îÄ PASOS ‚îÄ‚îÄ */
+    /* ── PASOS ── */
     .how { background: var(--sand); }
     .steps-grid {
       display: grid; grid-template-columns: repeat(4, 1fr);
@@ -246,7 +252,7 @@
     .step h3 { font-size: .95rem; font-weight: 700; margin-bottom: .5rem; }
     .step p { font-size: .85rem; color: var(--gray-500); }
 
-    /* ‚îÄ‚îÄ POR QU√â NOSOTROS (dark) ‚îÄ‚îÄ */
+    /* ── POR QUÉ NOSOTROS (dark) ── */
     .why { background: var(--blue); color: #fff; }
     .why .eyebrow { color: #f5c842; }
     .why .section-title { color: #fff; }
@@ -268,7 +274,7 @@
     .reason h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; }
     .reason p { font-size: .875rem; color: rgba(255,255,255,.7); line-height: 1.65; }
 
-    /* ‚îÄ‚îÄ QU√â INCLUYE (foto lateral) ‚îÄ‚îÄ */
+    /* ── QUÉ INCLUYE (foto lateral) ── */
     .includes { background: #fff; }
     .includes-split {
       display: grid; grid-template-columns: 1fr 1fr;
@@ -296,7 +302,7 @@
     }
     .includes-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-    /* ‚îÄ‚îÄ TESTIMONIOS ‚îÄ‚îÄ */
+    /* ── TESTIMONIOS ── */
     .testimonials { background: var(--sand); }
     .testimonials-grid {
       display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
@@ -323,7 +329,7 @@
     .author-name { font-size: .875rem; font-weight: 700; }
     .author-meta { font-size: .78rem; color: var(--gray-400); }
 
-    /* ‚îÄ‚îÄ FAQs ‚îÄ‚îÄ */
+    /* ── FAQs ── */
     .faqs { background: #fff; }
     .faq-grid {
       display: grid; grid-template-columns: 1fr 1fr;
@@ -353,7 +359,7 @@
     }
     .faq-item.open .faq-a { max-height: 300px; padding: 0 1.5rem 1.25rem; }
 
-    /* ‚îÄ‚îÄ FORMULARIO ‚îÄ‚îÄ */
+    /* ── FORMULARIO ── */
     .contact { background: var(--blue); }
     .contact-inner {
       max-width: 1120px; margin: 0 auto;
@@ -425,7 +431,7 @@
     .form-success h3 { font-size: 1.2rem; font-weight: 800; color: var(--blue); margin-bottom: .6rem; }
     .form-success p { font-size: .9rem; color: var(--gray-500); }
 
-    /* ‚îÄ‚îÄ FOOTER ‚îÄ‚îÄ */
+    /* ── FOOTER ── */
     footer {
       background: var(--gray-900);
       padding: clamp(2rem, 5vw, 3rem) clamp(1.25rem, 5vw, 3rem);
@@ -446,7 +452,7 @@
       font-size: .75rem; color: rgba(255,255,255,.3);
     }
 
-    /* ‚îÄ‚îÄ RESPONSIVE ‚îÄ‚îÄ */
+    /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
       .hero-inner { grid-template-columns: 1fr; }
       .hero-image { display: block; }
@@ -476,7 +482,7 @@
 <!-- NAV -->
 <nav>
   <div class="nav-inner">
-    <a href="#" class="logo" aria-label="ConsigueTuHogar ‚Äî Inicio">
+    <a href="#" class="logo" aria-label="ConsigueTuHogar — Inicio">
       <svg width="210" height="34" viewBox="0 0 300 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M4 20 L14 8 L24 20" stroke="#f5c842" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         <text x="32" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="22" fill="#1a3353" letter-spacing="-0.5">Consigue<tspan fill="#2d6ab4">Tu</tspan><tspan fill="#1a3353">Hogar</tspan></text>
@@ -493,12 +499,12 @@
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-text">
-      <div class="hero-tag">‚ú¶ Especialistas en hipotecas</div>
+      <div class="hero-tag">✦ Especialistas en hipotecas</div>
       <h1>Encontramos al experto que consigue <em>tu mejor hipoteca</em></h1>
-      <p class="hero-sub">Analizamos tu situaci√≥n, seleccionamos al especialista perfecto para tu caso y negociamos con m√°s de 20 bancos.</p>
+      <p class="hero-sub">Analizamos tu situación, seleccionamos al especialista perfecto para tu caso y negociamos con más de 20 bancos.</p>
       <div class="hero-actions">
         <a href="#contacto" class="btn-gold">Hablar con un especialista</a>
-        <a href="#como-funciona" class="btn-outline">Ver c√≥mo funciona</a>
+        <a href="#como-funciona" class="btn-outline">Ver cómo funciona</a>
       </div>
     </div>
     <div class="hero-image">
@@ -508,7 +514,7 @@
         loading="eager"
       />
       <div class="hero-badge-float">
-        <span class="badge-icon">üè¶</span>
+        <span class="badge-icon">🏦</span>
         <div class="badge-text">
           <strong>+20 bancos</strong>
           <span>comparados por expertos</span>
@@ -521,9 +527,9 @@
 <!-- PROOF BAR -->
 <div class="proof-bar">
   <div class="proof-bar-inner">
-    <div class="proof-item"><span class="proof-dot">‚óè</span> +500 familias ayudadas</div>
-    <div class="proof-item"><span class="proof-dot">‚óè</span> Respuesta en menos de 24 h</div>
-    <div class="proof-item"><span class="proof-dot">‚óè</span> Sin compromiso</div>
+    <div class="proof-item"><span class="proof-dot">●</span> +500 familias ayudadas</div>
+    <div class="proof-item"><span class="proof-dot">●</span> Respuesta en menos de 24 h</div>
+    <div class="proof-item"><span class="proof-dot">●</span> Sin compromiso</div>
   </div>
 </div>
 
@@ -534,27 +540,27 @@
       <div class="split-img">
         <img
           src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&q=80&auto=format&fit=crop"
-          alt="Asesor√≠a hipotecaria personalizada"
+          alt="Asesoría hipotecaria personalizada"
           loading="lazy"
         />
       </div>
       <div class="split-text">
         <span class="eyebrow">Nuestro enfoque</span>
         <h2 class="section-title">No te enviamos a un banco. Te enviamos al mejor experto.</h2>
-        <p class="section-sub">Cada perfil es diferente. Un aut√≥nomo no tiene las mismas opciones que un funcionario. Una segunda vivienda no se financia igual que una primera. Por eso lo primero que hacemos es entender tu caso.</p>
+        <p class="section-sub">Cada perfil es diferente. Un autónomo no tiene las mismas opciones que un funcionario. Una segunda vivienda no se financia igual que una primera. Por eso lo primero que hacemos es entender tu caso.</p>
         <ul class="check-list">
-          <li>Analizamos tu situaci√≥n financiera, laboral y patrimonial</li>
-          <li>Seleccionamos al especialista con m√°s experiencia en tu tipo de operaci√≥n</li>
+          <li>Analizamos tu situación financiera, laboral y patrimonial</li>
+          <li>Seleccionamos al especialista con más experiencia en tu tipo de operación</li>
           <li>Ese especialista compara bancos y negocia condiciones exclusivas para ti</li>
-          <li>Te acompa√±a durante todo el proceso hasta que firmas</li>
+          <li>Te acompaña durante todo el proceso hasta que firmas</li>
         </ul>
-        <a href="#contacto" class="split-cta">Contactar con un especialista ‚Üí</a>
+        <a href="#contacto" class="split-cta">Contactar con un especialista →</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- C√ìMO FUNCIONA -->
+<!-- CÓMO FUNCIONA -->
 <section class="how" id="como-funciona">
   <div class="section-inner">
     <div class="section-header center">
@@ -565,105 +571,105 @@
     <div class="steps-grid">
       <div class="step">
         <div class="step-num">1</div>
-        <h3>Cu√©ntanos tu caso</h3>
-        <p>Rellena el formulario en 2 minutos. Sin documentaci√≥n todav√≠a.</p>
+        <h3>Cuéntanos tu caso</h3>
+        <p>Rellena el formulario en 2 minutos. Sin documentación todavía.</p>
       </div>
       <div class="step">
         <div class="step-num">2</div>
-        <h3>An√°lisis de tu perfil</h3>
-        <p>Un especialista estudia tu situaci√≥n y te llama en menos de 24 h.</p>
+        <h3>Análisis de tu perfil</h3>
+        <p>Un especialista estudia tu situación y te llama en menos de 24 h.</p>
       </div>
       <div class="step">
         <div class="step-num">3</div>
         <h3>Comparativa de bancos</h3>
-        <p>Negociamos con m√°s de 20 entidades y te presentamos las mejores ofertas.</p>
+        <p>Negociamos con más de 20 entidades y te presentamos las mejores ofertas.</p>
       </div>
       <div class="step">
         <div class="step-num">4</div>
         <h3>Firmas tu hipoteca</h3>
-        <p>Te acompa√±amos hasta el notario. T√∫ solo tienes que aparecer.</p>
+        <p>Te acompañamos hasta el notario. Tú solo tienes que aparecer.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- POR QU√â CONSIGUETUHOGAR -->
+<!-- POR QUÉ CONSIGUETUHOGAR -->
 <section class="why">
   <div class="section-inner">
     <div class="section-header center">
-      <span class="eyebrow">Por qu√© elegirnos</span>
+      <span class="eyebrow">Por qué elegirnos</span>
       <h2 class="section-title" style="color:#fff">Lo que nos diferencia</h2>
       <p class="section-sub" style="margin:0 auto;color:rgba(255,255,255,.7)">Trabajamos del lado del cliente, no del banco.</p>
     </div>
     <div class="reasons-grid">
       <div class="reason">
-        <span class="reason-icon">üéØ</span>
+        <span class="reason-icon">🎯</span>
         <h3>Experto a medida</h3>
-        <p>No asignamos un gestor al azar. Buscamos al especialista con el historial m√°s s√≥lido en tu tipo de operaci√≥n y perfil.</p>
+        <p>No asignamos un gestor al azar. Buscamos al especialista con el historial más sólido en tu tipo de operación y perfil.</p>
       </div>
       <div class="reason">
-        <span class="reason-icon">üè¶</span>
+        <span class="reason-icon">🏦</span>
         <h3>Acceso a condiciones exclusivas</h3>
-        <p>Accedemos a tipos de inter√©s y condiciones que los bancos reservan para quienes trabajan con gran volumen. Imposible de conseguir yendo solo.</p>
+        <p>Accedemos a tipos de interés y condiciones que los bancos reservan para quienes trabajan con gran volumen. Imposible de conseguir yendo solo.</p>
       </div>
       <div class="reason">
-        <span class="reason-icon">üíö</span>
+        <span class="reason-icon">💚</span>
         <h3>Transparencia total</h3>
-        <p>Antes de empezar te explicamos con detalle c√≥mo funciona todo. Sin sorpresas, sin letra peque√±a.</p>
+        <p>Antes de empezar te explicamos con detalle cómo funciona todo. Sin sorpresas, sin letra pequeña.</p>
       </div>
       <div class="reason">
-        <span class="reason-icon">üîç</span>
+        <span class="reason-icon">🔍</span>
         <h3>Transparencia total</h3>
-        <p>Te explicamos cada oferta con claridad: tipo de inter√©s real, vinculaciones y condiciones. Sin letra peque√±a ni sorpresas.</p>
+        <p>Te explicamos cada oferta con claridad: tipo de interés real, vinculaciones y condiciones. Sin letra pequeña ni sorpresas.</p>
       </div>
       <div class="reason">
-        <span class="reason-icon">‚ö°</span>
-        <h3>R√°pidos y sin burocracia</h3>
-        <p>Nos encargamos de toda la documentaci√≥n y la comunicaci√≥n con el banco. T√∫ dedicas el tiempo m√≠nimo imprescindible.</p>
+        <span class="reason-icon">⚡</span>
+        <h3>Rápidos y sin burocracia</h3>
+        <p>Nos encargamos de toda la documentación y la comunicación con el banco. Tú dedicas el tiempo mínimo imprescindible.</p>
       </div>
       <div class="reason">
-        <span class="reason-icon">ü§ù</span>
-        <h3>Acompa√±amiento real</h3>
-        <p>Tienes un interlocutor dedicado localizable por tel√©fono y WhatsApp durante todo el proceso. Sin bots, sin call centers.</p>
+        <span class="reason-icon">🤝</span>
+        <h3>Acompañamiento real</h3>
+        <p>Tienes un interlocutor dedicado localizable por teléfono y WhatsApp durante todo el proceso. Sin bots, sin call centers.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- QU√â INCLUYE -->
+<!-- QUÉ INCLUYE -->
 <section class="includes">
   <div class="section-inner">
     <div class="includes-split">
       <div>
         <span class="eyebrow">El estudio hipotecario</span>
-        <h2 class="section-title">Qu√© recibes cuando trabajas con nosotros</h2>
-        <p class="section-sub" style="margin-bottom:2rem">Un an√°lisis completo de tu situaci√≥n y las mejores opciones del mercado.</p>
+        <h2 class="section-title">Qué recibes cuando trabajas con nosotros</h2>
+        <p class="section-sub" style="margin-bottom:2rem">Un análisis completo de tu situación y las mejores opciones del mercado.</p>
         <div class="includes-list">
           <div class="include-item">
-            <div class="include-icon">üìä</div>
+            <div class="include-icon">📊</div>
             <div>
-              <h4>An√°lisis de viabilidad</h4>
-              <p>Evaluamos tu perfil y te decimos con honestidad qu√© hipotecas puedes conseguir y en qu√© condiciones.</p>
+              <h4>Análisis de viabilidad</h4>
+              <p>Evaluamos tu perfil y te decimos con honestidad qué hipotecas puedes conseguir y en qué condiciones.</p>
             </div>
           </div>
           <div class="include-item">
-            <div class="include-icon">üîÑ</div>
+            <div class="include-icon">🔄</div>
             <div>
-              <h4>Comparativa real de m√°s de 20 bancos</h4>
-              <p>Tabla con las mejores ofertas para tu caso: tipo de inter√©s, plazo, vinculaciones y cuota mensual.</p>
+              <h4>Comparativa real de más de 20 bancos</h4>
+              <p>Tabla con las mejores ofertas para tu caso: tipo de interés, plazo, vinculaciones y cuota mensual.</p>
             </div>
           </div>
           <div class="include-item">
-            <div class="include-icon">üìê</div>
+            <div class="include-icon">📐</div>
             <div>
-              <h4>Simulaci√≥n de cuotas</h4>
-              <p>Cu√°nto pagar√°s cada mes y cu√°nto te ahorras respecto a ir al banco sin apoyo especializado.</p>
+              <h4>Simulación de cuotas</h4>
+              <p>Cuánto pagarás cada mes y cuánto te ahorras respecto a ir al banco sin apoyo especializado.</p>
             </div>
           </div>
           <div class="include-item">
-            <div class="include-icon">üó∫Ô∏è</div>
+            <div class="include-icon">🗺️</div>
             <div>
-              <h4>Plan de acci√≥n personalizado</h4>
+              <h4>Plan de acción personalizado</h4>
               <p>Los pasos concretos para conseguir tu hipoteca en las mejores condiciones posibles.</p>
             </div>
           </div>
@@ -689,35 +695,35 @@
     </div>
     <div class="testimonials-grid">
       <div class="testimonial">
-        <div class="stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</div>
-        <blockquote>"Pensaba que como aut√≥nomo ten√≠a pocas opciones. En menos de una semana ten√≠a tres ofertas encima de la mesa. Firm√© al 2,85% fijo, algo que yo solo no habr√≠a conseguido."</blockquote>
+        <div class="stars">★★★★★</div>
+        <blockquote>"Pensaba que como autónomo tenía pocas opciones. En menos de una semana tenía tres ofertas encima de la mesa. Firmé al 2,85% fijo, algo que yo solo no habría conseguido."</blockquote>
         <div class="testimonial-author">
           <div class="avatar">CR</div>
           <div>
             <div class="author-name">Carlos R.</div>
-            <div class="author-meta">Aut√≥nomo ¬∑ Primera vivienda ¬∑ Madrid</div>
+            <div class="author-meta">Autónomo · Primera vivienda · Madrid</div>
           </div>
         </div>
       </div>
       <div class="testimonial">
-        <div class="stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</div>
-        <blockquote>"Mi banco me ofrec√≠a 3,4% variable. Gracias al experto que me asignaron firm√© al 3,0% fijo con un banco que ni conoc√≠a. La diferencia en 30 a√±os es brutal."</blockquote>
+        <div class="stars">★★★★★</div>
+        <blockquote>"Mi banco me ofrecía 3,4% variable. Gracias al experto que me asignaron firmé al 3,0% fijo con un banco que ni conocía. La diferencia en 30 años es brutal."</blockquote>
         <div class="testimonial-author">
           <div class="avatar">LM</div>
           <div>
             <div class="author-name">Laura M.</div>
-            <div class="author-meta">Asalariada ¬∑ Segunda vivienda ¬∑ Barcelona</div>
+            <div class="author-meta">Asalariada · Segunda vivienda · Barcelona</div>
           </div>
         </div>
       </div>
       <div class="testimonial">
-        <div class="stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</div>
-        <blockquote>"Lo mejor fue tener siempre a alguien disponible por WhatsApp. Cualquier duda que ten√≠a, en minutos ten√≠a respuesta. El proceso fue muy tranquilo y sin estr√©s."</blockquote>
+        <div class="stars">★★★★★</div>
+        <blockquote>"Lo mejor fue tener siempre a alguien disponible por WhatsApp. Cualquier duda que tenía, en minutos tenía respuesta. El proceso fue muy tranquilo y sin estrés."</blockquote>
         <div class="testimonial-author">
           <div class="avatar">JA</div>
           <div>
             <div class="author-name">Javier A.</div>
-            <div class="author-meta">Funcionario ¬∑ Obra nueva ¬∑ Valencia</div>
+            <div class="author-meta">Funcionario · Obra nueva · Valencia</div>
           </div>
         </div>
       </div>
@@ -734,28 +740,28 @@
     </div>
     <div class="faq-grid">
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">¬øCu√°nto cuesta el estudio? <span class="faq-chevron">‚ñº</span></button>
-        <div class="faq-a">Antes de empezar, un especialista te explica con detalle c√≥mo funciona todo y qu√© incluye el servicio. Sin compromisos ni sorpresas.</div>
+        <button class="faq-q" onclick="toggleFaq(this)">¿Cuánto cuesta el estudio? <span class="faq-chevron">▼</span></button>
+        <div class="faq-a">Antes de empezar, un especialista te explica con detalle cómo funciona todo y qué incluye el servicio. Sin compromisos ni sorpresas.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">¬øCon qu√© bancos trabaj√°is? <span class="faq-chevron">‚ñº</span></button>
-        <div class="faq-a">M√°s de 20 entidades: desde grandes bancos como Santander, BBVA o CaixaBank, hasta entidades medianas y online que suelen ofrecer condiciones muy competitivas.</div>
+        <button class="faq-q" onclick="toggleFaq(this)">¿Con qué bancos trabajáis? <span class="faq-chevron">▼</span></button>
+        <div class="faq-a">Más de 20 entidades: desde grandes bancos como Santander, BBVA o CaixaBank, hasta entidades medianas y online que suelen ofrecer condiciones muy competitivas.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">¬øCu√°nto tiempo tarda el proceso? <span class="faq-chevron">‚ñº</span></button>
-        <div class="faq-a">El estudio inicial lo tienes en menos de 48 horas. El proceso completo hasta la firma var√≠a seg√∫n el banco, pero en media son 3 a 6 semanas. Siempre te mantenemos informado.</div>
+        <button class="faq-q" onclick="toggleFaq(this)">¿Cuánto tiempo tarda el proceso? <span class="faq-chevron">▼</span></button>
+        <div class="faq-a">El estudio inicial lo tienes en menos de 48 horas. El proceso completo hasta la firma varía según el banco, pero en media son 3 a 6 semanas. Siempre te mantenemos informado.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">¬øPuedo pedir una hipoteca si soy aut√≥nomo? <span class="faq-chevron">‚ñº</span></button>
-        <div class="faq-a">S√≠. Contamos con especialistas con mucha experiencia en perfiles de aut√≥nomos, que conocen exactamente qu√© bancos y condiciones son m√°s favorables para este colectivo.</div>
+        <button class="faq-q" onclick="toggleFaq(this)">¿Puedo pedir una hipoteca si soy autónomo? <span class="faq-chevron">▼</span></button>
+        <div class="faq-a">Sí. Contamos con especialistas con mucha experiencia en perfiles de autónomos, que conocen exactamente qué bancos y condiciones son más favorables para este colectivo.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">¬øPuedo mejorar mi hipoteca actual? <span class="faq-chevron">‚ñº</span></button>
-        <div class="faq-a">S√≠, tambi√©n trabajamos subrogaciones y novaciones. Si tienes hipoteca variable y quieres pasarla a fijo, o crees que tu banco no te da las mejores condiciones, podemos estudiarlo.</div>
+        <button class="faq-q" onclick="toggleFaq(this)">¿Puedo mejorar mi hipoteca actual? <span class="faq-chevron">▼</span></button>
+        <div class="faq-a">Sí, también trabajamos subrogaciones y novaciones. Si tienes hipoteca variable y quieres pasarla a fijo, o crees que tu banco no te da las mejores condiciones, podemos estudiarlo.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">¬øNecesito tener el piso elegido? <span class="faq-chevron">‚ñº</span></button>
-        <div class="faq-a">No hace falta. Podemos hacer el estudio antes de que hayas encontrado el inmueble, para que cuando lo encuentres sepas exactamente a qu√© hipoteca puedes optar.</div>
+        <button class="faq-q" onclick="toggleFaq(this)">¿Necesito tener el piso elegido? <span class="faq-chevron">▼</span></button>
+        <div class="faq-a">No hace falta. Podemos hacer el estudio antes de que hayas encontrado el inmueble, para que cuando lo encuentres sepas exactamente a qué hipoteca puedes optar.</div>
       </div>
     </div>
   </div>
@@ -767,13 +773,13 @@
     <div class="contact-left">
       <span class="eyebrow">Empieza hoy</span>
       <h2 class="section-title">Habla con un especialista<br>y encuentra tu mejor hipoteca</h2>
-      <p>En menos de 24 horas un especialista se pondr√° en contacto contigo para analizar tu caso y explicarte c√≥mo podemos ayudarte.</p>
+      <p>En menos de 24 horas un especialista se pondrá en contacto contigo para analizar tu caso y explicarte cómo podemos ayudarte.</p>
       <ul class="contact-perks">
-        <li><span class="perk-dot"></span> An√°lisis completo de tu situaci√≥n</li>
-        <li><span class="perk-dot"></span> Comparativa de m√°s de 20 bancos</li>
+        <li><span class="perk-dot"></span> Análisis completo de tu situación</li>
+        <li><span class="perk-dot"></span> Comparativa de más de 20 bancos</li>
         <li><span class="perk-dot"></span> Sin compromisos</li>
-        <li><span class="perk-dot"></span> Asesor disponible por tel√©fono y WhatsApp</li>
-        <li><span class="perk-dot"></span> Acompa√±amiento hasta la firma</li>
+        <li><span class="perk-dot"></span> Asesor disponible por teléfono y WhatsApp</li>
+        <li><span class="perk-dot"></span> Acompañamiento hasta la firma</li>
       </ul>
     </div>
     <div>
@@ -787,10 +793,10 @@
             </div>
             <div class="form-group">
               <label for="apellidos">Apellidos</label>
-              <input type="text" id="apellidos" name="apellidos" placeholder="Garc√≠a L√≥pez" />
+              <input type="text" id="apellidos" name="apellidos" placeholder="García López" />
             </div>
             <div class="form-group">
-              <label for="telefono">Tel√©fono <span class="req">*</span></label>
+              <label for="telefono">Teléfono <span class="req">*</span></label>
               <input type="tel" id="telefono" name="telefono" placeholder="600 000 000" required />
             </div>
             <div class="form-group">
@@ -798,13 +804,13 @@
               <input type="email" id="email" name="email" placeholder="juan@email.com" />
             </div>
             <div class="form-group">
-              <label for="tipoOperacion">Tipo de operaci√≥n</label>
+              <label for="tipoOperacion">Tipo de operación</label>
               <select id="tipoOperacion" name="tipoOperacion">
                 <option value="">Seleccionar...</option>
                 <option value="Primera vivienda">Primera vivienda</option>
                 <option value="Segunda vivienda">Segunda vivienda</option>
-                <option value="Inversi√≥n">Inversi√≥n / alquiler</option>
-                <option value="Subrogaci√≥n">Mejorar hipoteca actual</option>
+                <option value="Inversión">Inversión / alquiler</option>
+                <option value="Subrogación">Mejorar hipoteca actual</option>
                 <option value="Obra nueva">Obra nueva</option>
               </select>
             </div>
@@ -812,17 +818,17 @@
               <label for="provincia">Provincia</label>
               <select id="provincia" name="provincia">
                 <option value="">Seleccionar...</option>
-                <option>√Ålava</option><option>Albacete</option><option>Alicante</option>
-                <option>Almer√≠a</option><option>Asturias</option><option>√Åvila</option>
+                <option>Álava</option><option>Albacete</option><option>Alicante</option>
+                <option>Almería</option><option>Asturias</option><option>Ávila</option>
                 <option>Badajoz</option><option>Barcelona</option><option>Burgos</option>
-                <option>C√°ceres</option><option>C√°diz</option><option>Cantabria</option>
-                <option>Castell√≥n</option><option>Ciudad Real</option><option>C√≥rdoba</option>
+                <option>Cáceres</option><option>Cádiz</option><option>Cantabria</option>
+                <option>Castellón</option><option>Ciudad Real</option><option>Córdoba</option>
                 <option>Cuenca</option><option>Girona</option><option>Granada</option>
-                <option>Guadalajara</option><option>Guip√∫zcoa</option><option>Huelva</option>
-                <option>Huesca</option><option>Illes Balears</option><option>Ja√©n</option>
-                <option>La Coru√±a</option><option>La Rioja</option><option>Las Palmas</option>
-                <option>Le√≥n</option><option>Lleida</option><option>Lugo</option>
-                <option>Madrid</option><option>M√°laga</option><option>Murcia</option>
+                <option>Guadalajara</option><option>Guipúzcoa</option><option>Huelva</option>
+                <option>Huesca</option><option>Illes Balears</option><option>Jaén</option>
+                <option>La Coruña</option><option>La Rioja</option><option>Las Palmas</option>
+                <option>León</option><option>Lleida</option><option>Lugo</option>
+                <option>Madrid</option><option>Málaga</option><option>Murcia</option>
                 <option>Navarra</option><option>Ourense</option><option>Palencia</option>
                 <option>Pontevedra</option><option>Salamanca</option><option>Santa Cruz de Tenerife</option>
                 <option>Segovia</option><option>Sevilla</option><option>Soria</option>
@@ -833,50 +839,50 @@
               </select>
             </div>
             <div class="form-group full">
-              <label for="mensaje">¬øAlgo que quieras contarnos?</label>
+              <label for="mensaje">¿Algo que quieras contarnos?</label>
               <textarea id="mensaje" name="mensaje" placeholder="Ej: Tenemos oferta aceptada para julio, somos dos compradores asalariados..."></textarea>
             </div>
           </div>
-          <button type="submit" class="btn-submit" id="submit-btn">Contactar con un especialista ‚Üí</button>
-          <div class="form-error" id="form-error">Ha ocurrido un error. Int√©ntalo de nuevo o ll√°manos directamente.</div>
+          <button type="submit" class="btn-submit" id="submit-btn">Contactar con un especialista →</button>
+          <div class="form-error" id="form-error">Ha ocurrido un error. Inténtalo de nuevo o llámanos directamente.</div>
           <p class="form-privacy">
-            Al enviar aceptas nuestra <a href="#">Pol√≠tica de Privacidad</a>. Tus datos son confidenciales y nunca ser√°n cedidos a terceros sin tu consentimiento.
+            Al enviar aceptas nuestra <a href="#">Política de Privacidad</a>. Tus datos son confidenciales y nunca serán cedidos a terceros sin tu consentimiento.
           </p>
         </form>
         <div class="form-success" id="form-success">
-          <div class="s-icon">üéâ</div>
-          <h3>¬°Solicitud recibida!</h3>
-          <p>En menos de 24 horas un especialista se pondr√° en contacto contigo. Revisa tambi√©n tu bandeja de entrada.</p>
+          <div class="s-icon">🎉</div>
+          <h3>¡Solicitud recibida!</h3>
+          <p>En menos de 24 horas un especialista se pondrá en contacto contigo. Revisa también tu bandeja de entrada.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- MODAL POL√çTICA DE COOKIES -->
+<!-- MODAL POLÍTICA DE COOKIES -->
 <div id="modal-cookies" role="dialog" aria-modal="true" aria-labelledby="modal-ck-title" onclick="if(event.target===this)this.style.display='none'" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.55);overflow-y:auto;padding:2rem 1rem;">
   <div style="background:#fff;max-width:780px;margin:2rem auto;border-radius:16px;padding:clamp(1.75rem,5vw,3rem);position:relative;font-size:.9rem;line-height:1.75;color:#374151;">
-    <button onclick="document.getElementById('modal-cookies').style.display='none'" aria-label="Cerrar" style="position:absolute;top:1.25rem;right:1.25rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#9ca3af;line-height:1;">‚úï</button>
-    <h2 id="modal-ck-title" style="font-family:'Lora',Georgia,serif;font-size:1.6rem;font-weight:600;color:#1a3353;margin-bottom:.25rem;">Pol√≠tica de Cookies</h2>
-    <p style="font-size:.78rem;color:#9ca3af;margin-bottom:2rem;">√öltima actualizaci√≥n: junio de 2025</p>
+    <button onclick="document.getElementById('modal-cookies').style.display='none'" aria-label="Cerrar" style="position:absolute;top:1.25rem;right:1.25rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#9ca3af;line-height:1;">✕</button>
+    <h2 id="modal-ck-title" style="font-family:'Lora',Georgia,serif;font-size:1.6rem;font-weight:600;color:#1a3353;margin-bottom:.25rem;">Política de Cookies</h2>
+    <p style="font-size:.78rem;color:#9ca3af;margin-bottom:2rem;">Última actualización: junio de 2025</p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">1. ¬øQu√© son las cookies?</h3>
-    <p>Las cookies son peque√±os archivos de texto que los sitios web almacenan en el navegador o dispositivo del usuario cuando visita una p√°gina. Permiten que el sitio recuerde informaci√≥n sobre su visita ‚Äîcomo las preferencias de idioma o si ya ha aceptado este aviso‚Äî con el fin de facilitar su pr√≥xima visita y hacer el sitio m√°s √∫til.</p>
-    <p>Adem√°s de cookies propias, este sitio puede instalar cookies de terceros (empresas distintas al titular del sitio) para ofrecer funcionalidades adicionales como anal√≠tica o publicidad segmentada.</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">1. ¿Qué son las cookies?</h3>
+    <p>Las cookies son pequeños archivos de texto que los sitios web almacenan en el navegador o dispositivo del usuario cuando visita una página. Permiten que el sitio recuerde información sobre su visita —como las preferencias de idioma o si ya ha aceptado este aviso— con el fin de facilitar su próxima visita y hacer el sitio más útil.</p>
+    <p>Además de cookies propias, este sitio puede instalar cookies de terceros (empresas distintas al titular del sitio) para ofrecer funcionalidades adicionales como analítica o publicidad segmentada.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">2. Marco normativo</h3>
-    <p>Esta pol√≠tica se ha redactado en cumplimiento de:</p>
+    <p>Esta política se ha redactado en cumplimiento de:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
       <li>El <strong>Reglamento (UE) 2016/679 (RGPD)</strong>.</li>
-      <li>La <strong>Ley Org√°nica 3/2018 (LOPD-GDD)</strong>.</li>
-      <li>El <strong>art√≠culo 22.2 de la LSSI-CE</strong>, que exige consentimiento informado previo para la instalaci√≥n de cookies no estrictamente necesarias.</li>
-      <li>Las <strong>Directrices de la Agencia Espa√±ola de Protecci√≥n de Datos (AEPD)</strong> sobre el uso de cookies (edici√≥n 2023).</li>
+      <li>La <strong>Ley Orgánica 3/2018 (LOPD-GDD)</strong>.</li>
+      <li>El <strong>artículo 22.2 de la LSSI-CE</strong>, que exige consentimiento informado previo para la instalación de cookies no estrictamente necesarias.</li>
+      <li>Las <strong>Directrices de la Agencia Española de Protección de Datos (AEPD)</strong> sobre el uso de cookies (edición 2023).</li>
     </ul>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">3. Tipos de cookies que utilizamos</h3>
 
     <p style="font-weight:700;margin-bottom:.4rem;">3.1 Cookies estrictamente necesarias</p>
-    <p>Son imprescindibles para el funcionamiento b√°sico del sitio. No requieren consentimiento.</p>
+    <p>Son imprescindibles para el funcionamiento básico del sitio. No requieren consentimiento.</p>
     <div style="overflow-x:auto;margin:.75rem 0 1.25rem;">
       <table style="width:100%;border-collapse:collapse;font-size:.82rem;min-width:500px;">
         <thead><tr style="background:#eaf1fb;">
@@ -886,13 +892,13 @@
           <th style="padding:.55rem .75rem;text-align:left;border:1px solid #e5e7eb;">Caducidad</th>
         </tr></thead>
         <tbody>
-          <tr><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>cth_consent</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Chipinvest, S.L.</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Almacena las preferencias de cookies del usuario para no volver a mostrar el banner</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">1 a√±o</td></tr>
+          <tr><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>cth_consent</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Chipinvest, S.L.</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Almacena las preferencias de cookies del usuario para no volver a mostrar el banner</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">1 año</td></tr>
         </tbody>
       </table>
     </div>
 
-    <p style="font-weight:700;margin-bottom:.4rem;">3.2 Cookies de anal√≠tica</p>
-    <p>Nos ayudan a entender c√≥mo los usuarios interact√∫an con el sitio (p√°ginas visitadas, tiempo de permanencia, origen del tr√°fico). La informaci√≥n es agregada y an√≥nima. Solo se instalan si usted ha dado su consentimiento. Proveedor: <strong>Google Analytics 4</strong> (Google LLC), con IP anonimizada.</p>
+    <p style="font-weight:700;margin-bottom:.4rem;">3.2 Cookies de analítica</p>
+    <p>Nos ayudan a entender cómo los usuarios interactúan con el sitio (páginas visitadas, tiempo de permanencia, origen del tráfico). La información es agregada y anónima. Solo se instalan si usted ha dado su consentimiento. Proveedor: <strong>Google Analytics 4</strong> (Google LLC), con IP anonimizada.</p>
     <div style="overflow-x:auto;margin:.75rem 0 1.25rem;">
       <table style="width:100%;border-collapse:collapse;font-size:.82rem;min-width:500px;">
         <thead><tr style="background:#eaf1fb;">
@@ -902,16 +908,16 @@
           <th style="padding:.55rem .75rem;text-align:left;border:1px solid #e5e7eb;">Caducidad</th>
         </tr></thead>
         <tbody>
-          <tr><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_ga</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Google LLC</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Identifica sesiones √∫nicas de usuario para medir el tr√°fico</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">2 a√±os</td></tr>
-          <tr style="background:#f9fafb;"><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_gid</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Google LLC</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Distingue usuarios en el mismo d√≠a</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">24 horas</td></tr>
+          <tr><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_ga</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Google LLC</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Identifica sesiones únicas de usuario para medir el tráfico</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">2 años</td></tr>
+          <tr style="background:#f9fafb;"><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_gid</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Google LLC</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Distingue usuarios en el mismo día</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">24 horas</td></tr>
           <tr><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_gat</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Google LLC</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Limita la tasa de peticiones a los servidores de Google Analytics</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">1 minuto</td></tr>
         </tbody>
       </table>
     </div>
-    <p style="font-size:.8rem;color:#6b7280;">M√°s informaci√≥n: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:#2d6ab4;">Pol√≠tica de privacidad de Google</a> ¬∑ <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color:#2d6ab4;">Complemento de inhabilitaci√≥n de GA</a></p>
+    <p style="font-size:.8rem;color:#6b7280;">Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:#2d6ab4;">Política de privacidad de Google</a> · <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color:#2d6ab4;">Complemento de inhabilitación de GA</a></p>
 
     <p style="font-weight:700;margin:.75rem 0 .4rem;">3.3 Cookies de marketing</p>
-    <p>Permiten mostrarle anuncios relevantes en redes sociales y medir el rendimiento de nuestras campa√±as publicitarias. Solo se instalan si usted ha dado su consentimiento. Proveedor: <strong>Meta Pixel</strong> (Meta Platforms Ireland Ltd.).</p>
+    <p>Permiten mostrarle anuncios relevantes en redes sociales y medir el rendimiento de nuestras campañas publicitarias. Solo se instalan si usted ha dado su consentimiento. Proveedor: <strong>Meta Pixel</strong> (Meta Platforms Ireland Ltd.).</p>
     <div style="overflow-x:auto;margin:.75rem 0 1.25rem;">
       <table style="width:100%;border-collapse:collapse;font-size:.82rem;min-width:500px;">
         <thead><tr style="background:#eaf1fb;">
@@ -922,17 +928,17 @@
         </tr></thead>
         <tbody>
           <tr><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_fbp</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Meta Platforms Ireland Ltd.</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Identifica el navegador para mostrar publicidad relevante en Meta (Facebook/Instagram)</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">3 meses</td></tr>
-          <tr style="background:#f9fafb;"><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_fbc</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Meta Platforms Ireland Ltd.</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Almacena el identificador del clic en un anuncio de Meta para atribuci√≥n de conversiones</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">3 meses</td></tr>
+          <tr style="background:#f9fafb;"><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;"><code>_fbc</code></td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Meta Platforms Ireland Ltd.</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">Almacena el identificador del clic en un anuncio de Meta para atribución de conversiones</td><td style="padding:.5rem .75rem;border:1px solid #e5e7eb;">3 meses</td></tr>
         </tbody>
       </table>
     </div>
-    <p style="font-size:.8rem;color:#6b7280;">M√°s informaci√≥n: <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener" style="color:#2d6ab4;">Pol√≠tica de privacidad de Meta</a> ¬∑ <a href="https://www.facebook.com/ads/preferences" target="_blank" rel="noopener" style="color:#2d6ab4;">Preferencias de anuncios de Meta</a></p>
+    <p style="font-size:.8rem;color:#6b7280;">Más información: <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener" style="color:#2d6ab4;">Política de privacidad de Meta</a> · <a href="https://www.facebook.com/ads/preferences" target="_blank" rel="noopener" style="color:#2d6ab4;">Preferencias de anuncios de Meta</a></p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">4. C√≥mo gestionar o retirar el consentimiento</h3>
-    <p>Puede gestionar sus preferencias de cookies en cualquier momento mediante cualquiera de estos m√©todos:</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">4. Cómo gestionar o retirar el consentimiento</h3>
+    <p>Puede gestionar sus preferencias de cookies en cualquier momento mediante cualquiera de estos métodos:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
-      <li><strong>Panel de preferencias:</strong> haga clic en <a href="#" onclick="document.getElementById('modal-cookies').style.display='none'" data-cc="show-preferencesModal" style="color:#2d6ab4;">Gestionar cookies</a> en el pie de esta p√°gina para aceptar, rechazar o personalizar las categor√≠as.</li>
-      <li><strong>Configuraci√≥n del navegador:</strong> puede bloquear o eliminar cookies desde la configuraci√≥n de su navegador. Tenga en cuenta que esto puede afectar al funcionamiento de algunas partes del sitio:
+      <li><strong>Panel de preferencias:</strong> haga clic en <a href="#" onclick="document.getElementById('modal-cookies').style.display='none'" data-cc="show-preferencesModal" style="color:#2d6ab4;">Gestionar cookies</a> en el pie de esta página para aceptar, rechazar o personalizar las categorías.</li>
+      <li><strong>Configuración del navegador:</strong> puede bloquear o eliminar cookies desde la configuración de su navegador. Tenga en cuenta que esto puede afectar al funcionamiento de algunas partes del sitio:
         <ul style="margin:.4rem 0 .4rem 1.25rem;">
           <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener" style="color:#2d6ab4;">Google Chrome</a></li>
           <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener" style="color:#2d6ab4;">Mozilla Firefox</a></li>
@@ -940,161 +946,161 @@
           <li><a href="https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank" rel="noopener" style="color:#2d6ab4;">Microsoft Edge</a></li>
         </ul>
       </li>
-      <li><strong>Inhabilitaci√≥n espec√≠fica de Google Analytics:</strong> puede instalar el <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color:#2d6ab4;">complemento de inhabilitaci√≥n</a> ofrecido por Google.</li>
+      <li><strong>Inhabilitación específica de Google Analytics:</strong> puede instalar el <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color:#2d6ab4;">complemento de inhabilitación</a> ofrecido por Google.</li>
       <li><strong>Publicidad de Meta:</strong> puede gestionar sus preferencias en <a href="https://www.facebook.com/ads/preferences" target="_blank" rel="noopener" style="color:#2d6ab4;">Preferencias de anuncios de Meta</a>.</li>
     </ul>
-    <p>La retirada del consentimiento no afectar√° a la licitud del tratamiento basado en el consentimiento previo a su retirada.</p>
+    <p>La retirada del consentimiento no afectará a la licitud del tratamiento basado en el consentimiento previo a su retirada.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">5. Transferencias internacionales</h3>
-    <p>Google LLC y Meta Platforms Ireland Ltd. pueden transferir datos a servidores ubicados en Estados Unidos. Ambas empresas disponen de las garant√≠as adecuadas previstas en el art√≠culo 46 del RGPD (Marco de Privacidad UE-EE.UU. y/o cl√°usulas contractuales tipo aprobadas por la Comisi√≥n Europea).</p>
+    <p>Google LLC y Meta Platforms Ireland Ltd. pueden transferir datos a servidores ubicados en Estados Unidos. Ambas empresas disponen de las garantías adecuadas previstas en el artículo 46 del RGPD (Marco de Privacidad UE-EE.UU. y/o cláusulas contractuales tipo aprobadas por la Comisión Europea).</p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">6. Actualizaciones de esta pol√≠tica</h3>
-    <p>Podemos actualizar esta Pol√≠tica de Cookies para reflejar cambios en las cookies que utilizamos o por otras razones operativas, legales o normativas. Le recomendamos que la revise peri√≥dicamente. La fecha de √∫ltima actualizaci√≥n aparece en la parte superior de este documento.</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">6. Actualizaciones de esta política</h3>
+    <p>Podemos actualizar esta Política de Cookies para reflejar cambios en las cookies que utilizamos o por otras razones operativas, legales o normativas. Le recomendamos que la revise periódicamente. La fecha de última actualización aparece en la parte superior de este documento.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">7. Contacto</h3>
-    <p>Para cualquier consulta sobre esta pol√≠tica puede contactarnos en <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a> o consultar nuestra <a href="#" onclick="document.getElementById('modal-cookies').style.display='none';document.getElementById('modal-privacidad').style.display='block';return false;" style="color:#2d6ab4;">Pol√≠tica de Privacidad</a>.</p>
+    <p>Para cualquier consulta sobre esta política puede contactarnos en <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a> o consultar nuestra <a href="#" onclick="document.getElementById('modal-cookies').style.display='none';document.getElementById('modal-privacidad').style.display='block';return false;" style="color:#2d6ab4;">Política de Privacidad</a>.</p>
 
-    <p style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e5e7eb;font-size:.78rem;color:#9ca3af;">Chipinvest, S.L. ¬∑ CIF B24897977 ¬∑ Carrer el Plom 28, nave 6, 43006 Tarragona ¬∑ <a href="mailto:hola@consiguetuhogar.com" style="color:#9ca3af;">hola@consiguetuhogar.com</a></p>
+    <p style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e5e7eb;font-size:.78rem;color:#9ca3af;">Chipinvest, S.L. · CIF B24897977 · Carrer el Plom 28, nave 6, 43006 Tarragona · <a href="mailto:hola@consiguetuhogar.com" style="color:#9ca3af;">hola@consiguetuhogar.com</a></p>
   </div>
 </div>
 
 <!-- MODAL AVISO LEGAL -->
 <div id="modal-aviso-legal" role="dialog" aria-modal="true" aria-labelledby="modal-al-title" onclick="if(event.target===this)this.style.display='none'" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.55);overflow-y:auto;padding:2rem 1rem;">
   <div style="background:#fff;max-width:780px;margin:2rem auto;border-radius:16px;padding:clamp(1.75rem,5vw,3rem);position:relative;font-size:.9rem;line-height:1.75;color:#374151;">
-    <button onclick="document.getElementById('modal-aviso-legal').style.display='none'" aria-label="Cerrar" style="position:absolute;top:1.25rem;right:1.25rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#9ca3af;line-height:1;">‚úï</button>
+    <button onclick="document.getElementById('modal-aviso-legal').style.display='none'" aria-label="Cerrar" style="position:absolute;top:1.25rem;right:1.25rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#9ca3af;line-height:1;">✕</button>
     <h2 id="modal-al-title" style="font-family:'Lora',Georgia,serif;font-size:1.6rem;font-weight:600;color:#1a3353;margin-bottom:.25rem;">Aviso Legal</h2>
-    <p style="font-size:.78rem;color:#9ca3af;margin-bottom:2rem;">√öltima actualizaci√≥n: junio de 2025</p>
+    <p style="font-size:.78rem;color:#9ca3af;margin-bottom:2rem;">Última actualización: junio de 2025</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">1. Datos identificativos del titular</h3>
-    <p>En cumplimiento del art√≠culo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Informaci√≥n y de Comercio Electr√≥nico (LSSI-CE), se informa de que el titular del sitio web <strong>https://consiguetuhogar.com</strong> es:</p>
+    <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de que el titular del sitio web <strong>https://consiguetuhogar.com</strong> es:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
-      <li><strong>Denominaci√≥n social:</strong> Chipinvest, Sociedad Limitada</li>
+      <li><strong>Denominación social:</strong> Chipinvest, Sociedad Limitada</li>
       <li><strong>CIF:</strong> B24897977</li>
       <li><strong>Domicilio social:</strong> Carrer el Plom 28, nave 6, 43006 Tarragona</li>
-      <li><strong>Correo electr√≥nico:</strong> <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a></li>
+      <li><strong>Correo electrónico:</strong> <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a></li>
       <li><strong>Sitio web:</strong> https://consiguetuhogar.com</li>
-      <li><strong>Registro Mercantil:</strong> Registro Mercantil de Tarragona, Hoja T-65143, IRUS 1000462047664, Inscripci√≥n 1.¬™</li>
+      <li><strong>Registro Mercantil:</strong> Registro Mercantil de Tarragona, Hoja T-65143, IRUS 1000462047664, Inscripción 1.ª</li>
     </ul>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">2. Objeto y actividad</h3>
-    <p>ConsigueTuHogar es un servicio de intermediaci√≥n y asesoramiento hipotecario prestado por Chipinvest, S.L., cuyo objeto es poner en contacto a usuarios interesados en la obtenci√≥n de financiaci√≥n hipotecaria con especialistas del sector, as√≠ como facilitar el an√°lisis de las ofertas disponibles en el mercado.</p>
-    <p>Chipinvest, S.L. no act√∫a como entidad de cr√©dito ni como intermediario de cr√©dito inmobiliario sujeto a autorizaci√≥n en virtud de la Ley 5/2019, de 15 de marzo, reguladora de los contratos de cr√©dito inmobiliario (LCCI), sino como servicio de referencia y conexi√≥n con profesionales del sector. Las operaciones de cr√©dito son gestionadas directamente por las entidades financieras y/o los intermediarios habilitados con los que colaboramos.</p>
+    <p>ConsigueTuHogar es un servicio de intermediación y asesoramiento hipotecario prestado por Chipinvest, S.L., cuyo objeto es poner en contacto a usuarios interesados en la obtención de financiación hipotecaria con especialistas del sector, así como facilitar el análisis de las ofertas disponibles en el mercado.</p>
+    <p>Chipinvest, S.L. no actúa como entidad de crédito ni como intermediario de crédito inmobiliario sujeto a autorización en virtud de la Ley 5/2019, de 15 de marzo, reguladora de los contratos de crédito inmobiliario (LCCI), sino como servicio de referencia y conexión con profesionales del sector. Las operaciones de crédito son gestionadas directamente por las entidades financieras y/o los intermediarios habilitados con los que colaboramos.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">3. Condiciones de uso del sitio web</h3>
-    <p>El acceso y uso de este sitio web atribuye la condici√≥n de usuario e implica la aceptaci√≥n plena y sin reservas de todas las disposiciones del presente Aviso Legal. El usuario se compromete a hacer un uso adecuado de los contenidos y servicios disponibles, con sujeci√≥n a la ley, a la moral y al orden p√∫blico, y a no emplearlos para fines il√≠citos o lesivos para terceros.</p>
-    <p>Chipinvest, S.L. se reserva el derecho a modificar, suspender o interrumpir el acceso al sitio web en cualquier momento y sin previo aviso, sin que ello genere obligaci√≥n de indemnizaci√≥n alguna.</p>
+    <p>El acceso y uso de este sitio web atribuye la condición de usuario e implica la aceptación plena y sin reservas de todas las disposiciones del presente Aviso Legal. El usuario se compromete a hacer un uso adecuado de los contenidos y servicios disponibles, con sujeción a la ley, a la moral y al orden público, y a no emplearlos para fines ilícitos o lesivos para terceros.</p>
+    <p>Chipinvest, S.L. se reserva el derecho a modificar, suspender o interrumpir el acceso al sitio web en cualquier momento y sin previo aviso, sin que ello genere obligación de indemnización alguna.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">4. Propiedad intelectual e industrial</h3>
-    <p>Todos los contenidos del sitio web ‚Äîincluyendo, sin car√°cter limitativo, textos, fotograf√≠as, gr√°ficos, im√°genes, logotipos, iconos, c√≥digo fuente y dise√±o‚Äî son propiedad de Chipinvest, S.L. o de terceros que han autorizado su uso, y est√°n protegidos por la normativa espa√±ola e internacional sobre propiedad intelectual e industrial.</p>
-    <p>Queda expresamente prohibida la reproducci√≥n, distribuci√≥n, comunicaci√≥n p√∫blica, transformaci√≥n o cualquier otra forma de explotaci√≥n de dichos contenidos sin autorizaci√≥n escrita previa de Chipinvest, S.L. El usuario podr√° visualizar y obtener una copia privada de los contenidos exclusivamente para uso personal y no comercial.</p>
+    <p>Todos los contenidos del sitio web —incluyendo, sin carácter limitativo, textos, fotografías, gráficos, imágenes, logotipos, iconos, código fuente y diseño— son propiedad de Chipinvest, S.L. o de terceros que han autorizado su uso, y están protegidos por la normativa española e internacional sobre propiedad intelectual e industrial.</p>
+    <p>Queda expresamente prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra forma de explotación de dichos contenidos sin autorización escrita previa de Chipinvest, S.L. El usuario podrá visualizar y obtener una copia privada de los contenidos exclusivamente para uso personal y no comercial.</p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">5. Exclusi√≥n de garant√≠as y responsabilidad</h3>
-    <p>Chipinvest, S.L. no garantiza la disponibilidad, continuidad ni infalibilidad del sitio web, y queda exonerada de cualquier responsabilidad por da√±os y perjuicios de cualquier naturaleza derivados de:</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">5. Exclusión de garantías y responsabilidad</h3>
+    <p>Chipinvest, S.L. no garantiza la disponibilidad, continuidad ni infalibilidad del sitio web, y queda exonerada de cualquier responsabilidad por daños y perjuicios de cualquier naturaleza derivados de:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
-      <li>La falta de disponibilidad o accesibilidad al sitio web por causas t√©cnicas o ajenas a su control.</li>
+      <li>La falta de disponibilidad o accesibilidad al sitio web por causas técnicas o ajenas a su control.</li>
       <li>El uso que los usuarios hagan de los contenidos del sitio web.</li>
-      <li>La existencia de virus u otros elementos da√±inos en los contenidos que puedan producir alteraciones en los sistemas inform√°ticos de los usuarios.</li>
-      <li>El incumplimiento de la ley, la moral o el orden p√∫blico por parte del usuario.</li>
+      <li>La existencia de virus u otros elementos dañinos en los contenidos que puedan producir alteraciones en los sistemas informáticos de los usuarios.</li>
+      <li>El incumplimiento de la ley, la moral o el orden público por parte del usuario.</li>
     </ul>
-    <p>La informaci√≥n publicada en este sitio web tiene car√°cter meramente informativo y orientativo. No constituye asesoramiento financiero, jur√≠dico ni fiscal personalizado. Chipinvest, S.L. no se hace responsable de las decisiones adoptadas por el usuario bas√°ndose exclusivamente en dicha informaci√≥n.</p>
+    <p>La información publicada en este sitio web tiene carácter meramente informativo y orientativo. No constituye asesoramiento financiero, jurídico ni fiscal personalizado. Chipinvest, S.L. no se hace responsable de las decisiones adoptadas por el usuario basándose exclusivamente en dicha información.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">6. Enlaces a terceros</h3>
-    <p>Este sitio web puede contener enlaces a p√°ginas web de terceros. Chipinvest, S.L. no controla ni se responsabiliza de los contenidos, pol√≠ticas de privacidad o pr√°cticas de dichos sitios, y su inclusi√≥n no implica recomendaci√≥n ni vinculaci√≥n de ning√∫n tipo. El acceso a dichos sitios se realiza bajo la exclusiva responsabilidad del usuario.</p>
+    <p>Este sitio web puede contener enlaces a páginas web de terceros. Chipinvest, S.L. no controla ni se responsabiliza de los contenidos, políticas de privacidad o prácticas de dichos sitios, y su inclusión no implica recomendación ni vinculación de ningún tipo. El acceso a dichos sitios se realiza bajo la exclusiva responsabilidad del usuario.</p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">7. Protecci√≥n de datos</h3>
-    <p>El tratamiento de los datos personales recogidos a trav√©s de este sitio web se rige por nuestra <a href="#" onclick="document.getElementById('modal-aviso-legal').style.display='none';document.getElementById('modal-privacidad').style.display='block';return false;" style="color:#2d6ab4;">Pol√≠tica de Privacidad</a>, que forma parte integrante de este Aviso Legal y que el usuario deber√° leer antes de facilitar cualquier dato personal.</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">7. Protección de datos</h3>
+    <p>El tratamiento de los datos personales recogidos a través de este sitio web se rige por nuestra <a href="#" onclick="document.getElementById('modal-aviso-legal').style.display='none';document.getElementById('modal-privacidad').style.display='block';return false;" style="color:#2d6ab4;">Política de Privacidad</a>, que forma parte integrante de este Aviso Legal y que el usuario deberá leer antes de facilitar cualquier dato personal.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">8. Cookies</h3>
-    <p>Este sitio web utiliza cookies propias y de terceros. Para m√°s informaci√≥n sobre qu√© cookies usamos y c√≥mo gestionarlas, consulte nuestra <a href="#" onclick="document.getElementById('modal-aviso-legal').style.display='none'" data-cc="show-preferencesModal" style="color:#2d6ab4;">Pol√≠tica de Cookies</a>.</p>
+    <p>Este sitio web utiliza cookies propias y de terceros. Para más información sobre qué cookies usamos y cómo gestionarlas, consulte nuestra <a href="#" onclick="document.getElementById('modal-aviso-legal').style.display='none'" data-cc="show-preferencesModal" style="color:#2d6ab4;">Política de Cookies</a>.</p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">9. Legislaci√≥n aplicable y jurisdicci√≥n</h3>
-    <p>El presente Aviso Legal se rige √≠ntegramente por la legislaci√≥n espa√±ola. Para la resoluci√≥n de cualquier controversia derivada del acceso o uso de este sitio web, las partes se someten, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, a los Juzgados y Tribunales de la ciudad de Tarragona, salvo que la normativa aplicable establezca un fuero imperativo distinto en favor del usuario.</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">9. Legislación aplicable y jurisdicción</h3>
+    <p>El presente Aviso Legal se rige íntegramente por la legislación española. Para la resolución de cualquier controversia derivada del acceso o uso de este sitio web, las partes se someten, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, a los Juzgados y Tribunales de la ciudad de Tarragona, salvo que la normativa aplicable establezca un fuero imperativo distinto en favor del usuario.</p>
 
-    <p style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e5e7eb;font-size:.78rem;color:#9ca3af;">Chipinvest, S.L. ¬∑ CIF B24897977 ¬∑ Carrer el Plom 28, nave 6, 43006 Tarragona ¬∑ Reg. Mercantil de Tarragona, Hoja T-65143</p>
+    <p style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e5e7eb;font-size:.78rem;color:#9ca3af;">Chipinvest, S.L. · CIF B24897977 · Carrer el Plom 28, nave 6, 43006 Tarragona · Reg. Mercantil de Tarragona, Hoja T-65143</p>
   </div>
 </div>
 
-<!-- MODAL POL√çTICA DE PRIVACIDAD -->
+<!-- MODAL POLÍTICA DE PRIVACIDAD -->
 <div id="modal-privacidad" role="dialog" aria-modal="true" aria-labelledby="modal-priv-title" onclick="if(event.target===this)this.style.display='none'" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.55);overflow-y:auto;padding:2rem 1rem;">
   <div style="background:#fff;max-width:780px;margin:2rem auto;border-radius:16px;padding:clamp(1.75rem,5vw,3rem);position:relative;font-size:.9rem;line-height:1.75;color:#374151;">
-    <button onclick="document.getElementById('modal-privacidad').style.display='none'" aria-label="Cerrar" style="position:absolute;top:1.25rem;right:1.25rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#9ca3af;line-height:1;">‚úï</button>
-    <h2 id="modal-priv-title" style="font-family:'Lora',Georgia,serif;font-size:1.6rem;font-weight:600;color:#1a3353;margin-bottom:.25rem;">Pol√≠tica de Privacidad</h2>
-    <p style="font-size:.78rem;color:#9ca3af;margin-bottom:2rem;">√öltima actualizaci√≥n: junio de 2025</p>
+    <button onclick="document.getElementById('modal-privacidad').style.display='none'" aria-label="Cerrar" style="position:absolute;top:1.25rem;right:1.25rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#9ca3af;line-height:1;">✕</button>
+    <h2 id="modal-priv-title" style="font-family:'Lora',Georgia,serif;font-size:1.6rem;font-weight:600;color:#1a3353;margin-bottom:.25rem;">Política de Privacidad</h2>
+    <p style="font-size:.78rem;color:#9ca3af;margin-bottom:2rem;">Última actualización: junio de 2025</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">1. Responsable del tratamiento</h3>
-    <p>En cumplimiento del Reglamento (UE) 2016/679 (RGPD) y la Ley Org√°nica 3/2018, de Protecci√≥n de Datos Personales y garant√≠a de los derechos digitales (LOPD-GDD), le informamos de que el responsable del tratamiento de sus datos personales es:</p>
+    <p>En cumplimiento del Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD), le informamos de que el responsable del tratamiento de sus datos personales es:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
-      <li><strong>Raz√≥n social:</strong> Chipinvest S.L.</li>
+      <li><strong>Razón social:</strong> Chipinvest S.L.</li>
       <li><strong>CIF:</strong> B24897977</li>
       <li><strong>Domicilio:</strong> Carrer el Plom 28, nave 6, 43006 Tarragona</li>
-      <li><strong>Correo electr√≥nico:</strong> <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a></li>
+      <li><strong>Correo electrónico:</strong> <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a></li>
       <li><strong>Sitio web:</strong> https://consiguetuhogar.com</li>
     </ul>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">2. Datos que tratamos y finalidades</h3>
-    <p>Tratamos los datos personales que usted nos facilita a trav√©s del formulario de contacto de esta web:</p>
+    <p>Tratamos los datos personales que usted nos facilita a través del formulario de contacto de esta web:</p>
     <table style="width:100%;border-collapse:collapse;margin:.75rem 0;font-size:.85rem;">
       <thead><tr style="background:#eaf1fb;">
         <th style="padding:.6rem .75rem;text-align:left;border:1px solid #e5e7eb;">Dato</th>
         <th style="padding:.6rem .75rem;text-align:left;border:1px solid #e5e7eb;">Finalidad</th>
-        <th style="padding:.6rem .75rem;text-align:left;border:1px solid #e5e7eb;">Base jur√≠dica</th>
+        <th style="padding:.6rem .75rem;text-align:left;border:1px solid #e5e7eb;">Base jurídica</th>
       </tr></thead>
       <tbody>
-        <tr><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Nombre y apellidos</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Identificaci√≥n y comunicaci√≥n</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecuci√≥n de relaci√≥n precontractual (art. 6.1.b RGPD)</td></tr>
-        <tr style="background:#f9fafb;"><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Tel√©fono</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Contacto por parte del especialista asignado</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecuci√≥n de relaci√≥n precontractual (art. 6.1.b RGPD)</td></tr>
-        <tr><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Correo electr√≥nico</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Env√≠o de informaci√≥n sobre el estudio hipotecario</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecuci√≥n de relaci√≥n precontractual (art. 6.1.b RGPD)</td></tr>
-        <tr style="background:#f9fafb;"><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Tipo de operaci√≥n y provincia</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Asignaci√≥n del especialista m√°s adecuado a su perfil</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Inter√©s leg√≠timo del responsable (art. 6.1.f RGPD)</td></tr>
-        <tr><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Mensaje libre</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">An√°lisis inicial de la situaci√≥n del usuario</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecuci√≥n de relaci√≥n precontractual (art. 6.1.b RGPD)</td></tr>
-        <tr style="background:#f9fafb;"><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Datos de navegaci√≥n y cookies (con consentimiento)</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Anal√≠tica web y publicidad segmentada</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Consentimiento del interesado (art. 6.1.a RGPD)</td></tr>
+        <tr><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Nombre y apellidos</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Identificación y comunicación</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecución de relación precontractual (art. 6.1.b RGPD)</td></tr>
+        <tr style="background:#f9fafb;"><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Teléfono</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Contacto por parte del especialista asignado</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecución de relación precontractual (art. 6.1.b RGPD)</td></tr>
+        <tr><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Correo electrónico</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Envío de información sobre el estudio hipotecario</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecución de relación precontractual (art. 6.1.b RGPD)</td></tr>
+        <tr style="background:#f9fafb;"><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Tipo de operación y provincia</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Asignación del especialista más adecuado a su perfil</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Interés legítimo del responsable (art. 6.1.f RGPD)</td></tr>
+        <tr><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Mensaje libre</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Análisis inicial de la situación del usuario</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Ejecución de relación precontractual (art. 6.1.b RGPD)</td></tr>
+        <tr style="background:#f9fafb;"><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Datos de navegación y cookies (con consentimiento)</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Analítica web y publicidad segmentada</td><td style="padding:.55rem .75rem;border:1px solid #e5e7eb;">Consentimiento del interesado (art. 6.1.a RGPD)</td></tr>
       </tbody>
     </table>
-    <p>No realizamos decisiones automatizadas ni elaboramos perfiles con consecuencias jur√≠dicas significativas para el interesado.</p>
+    <p>No realizamos decisiones automatizadas ni elaboramos perfiles con consecuencias jurídicas significativas para el interesado.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">3. Destinatarios de los datos</h3>
-    <p>Sus datos podr√°n ser comunicados a:</p>
+    <p>Sus datos podrán ser comunicados a:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
-      <li><strong>Especialistas hipotecarios colaboradores</strong> de Chipinvest S.L., √∫nicamente en la medida necesaria para gestionar su solicitud, y sujetos a acuerdos de confidencialidad.</li>
-      <li><strong>Proveedores tecnol√≥gicos</strong> (alojamiento web, CRM, herramientas de comunicaci√≥n) que act√∫an como encargados del tratamiento y est√°n sujetos al correspondiente contrato de encargo (art. 28 RGPD).</li>
-      <li><strong>Google LLC</strong> (Google Analytics 4), si ha prestado consentimiento para cookies anal√≠ticas. Google act√∫a como encargado del tratamiento. M√°s informaci√≥n en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:#2d6ab4;">Pol√≠tica de privacidad de Google</a>.</li>
-      <li><strong>Meta Platforms Ireland Ltd.</strong> (Meta Pixel), si ha prestado consentimiento para cookies de marketing. M√°s informaci√≥n en la <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener" style="color:#2d6ab4;">Pol√≠tica de privacidad de Meta</a>.</li>
+      <li><strong>Especialistas hipotecarios colaboradores</strong> de Chipinvest S.L., únicamente en la medida necesaria para gestionar su solicitud, y sujetos a acuerdos de confidencialidad.</li>
+      <li><strong>Proveedores tecnológicos</strong> (alojamiento web, CRM, herramientas de comunicación) que actúan como encargados del tratamiento y están sujetos al correspondiente contrato de encargo (art. 28 RGPD).</li>
+      <li><strong>Google LLC</strong> (Google Analytics 4), si ha prestado consentimiento para cookies analíticas. Google actúa como encargado del tratamiento. Más información en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:#2d6ab4;">Política de privacidad de Google</a>.</li>
+      <li><strong>Meta Platforms Ireland Ltd.</strong> (Meta Pixel), si ha prestado consentimiento para cookies de marketing. Más información en la <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener" style="color:#2d6ab4;">Política de privacidad de Meta</a>.</li>
     </ul>
     <p>No cedemos sus datos a terceros con fines propios sin su consentimiento expreso.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">4. Transferencias internacionales</h3>
-    <p>Google LLC y Meta Platforms Ireland Ltd. pueden transferir datos a Estados Unidos. Ambas empresas est√°n acogidas a las garant√≠as adecuadas previstas en el art. 46 RGPD (cl√°usulas contractuales tipo aprobadas por la Comisi√≥n Europea y/o el Marco de Privacidad UE-EE.UU.).</p>
+    <p>Google LLC y Meta Platforms Ireland Ltd. pueden transferir datos a Estados Unidos. Ambas empresas están acogidas a las garantías adecuadas previstas en el art. 46 RGPD (cláusulas contractuales tipo aprobadas por la Comisión Europea y/o el Marco de Privacidad UE-EE.UU.).</p>
 
-    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">5. Plazo de conservaci√≥n</h3>
-    <p>Conservaremos sus datos mientras exista una relaci√≥n activa con usted o hasta que solicite su supresi√≥n. Una vez finalizada la relaci√≥n, los datos se bloquear√°n durante los plazos de prescripci√≥n legal aplicables (en general, 5 a√±os para obligaciones civiles y 4 a√±os para obligaciones fiscales), transcurridos los cuales ser√°n eliminados de forma segura.</p>
-    <p>Los datos tratados en base a consentimiento (cookies anal√≠ticas y de marketing) se eliminan cuando usted retira el consentimiento o al expirar la cookie, seg√∫n lo indicado en nuestra Pol√≠tica de Cookies.</p>
+    <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">5. Plazo de conservación</h3>
+    <p>Conservaremos sus datos mientras exista una relación activa con usted o hasta que solicite su supresión. Una vez finalizada la relación, los datos se bloquearán durante los plazos de prescripción legal aplicables (en general, 5 años para obligaciones civiles y 4 años para obligaciones fiscales), transcurridos los cuales serán eliminados de forma segura.</p>
+    <p>Los datos tratados en base a consentimiento (cookies analíticas y de marketing) se eliminan cuando usted retira el consentimiento o al expirar la cookie, según lo indicado en nuestra Política de Cookies.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">6. Sus derechos</h3>
     <p>En cualquier momento puede ejercer los siguientes derechos reconocidos por el RGPD y la LOPD-GDD:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
-      <li><strong>Acceso:</strong> conocer qu√© datos suyos tratamos.</li>
-      <li><strong>Rectificaci√≥n:</strong> corregir datos inexactos o incompletos.</li>
-      <li><strong>Supresi√≥n (¬´derecho al olvido¬ª):</strong> solicitar la eliminaci√≥n de sus datos cuando ya no sean necesarios.</li>
-      <li><strong>Oposici√≥n:</strong> oponerse al tratamiento basado en inter√©s leg√≠timo.</li>
-      <li><strong>Limitaci√≥n del tratamiento:</strong> solicitar que suspendamos el tratamiento en determinadas circunstancias.</li>
-      <li><strong>Portabilidad:</strong> recibir sus datos en formato estructurado y de uso com√∫n.</li>
+      <li><strong>Acceso:</strong> conocer qué datos suyos tratamos.</li>
+      <li><strong>Rectificación:</strong> corregir datos inexactos o incompletos.</li>
+      <li><strong>Supresión («derecho al olvido»):</strong> solicitar la eliminación de sus datos cuando ya no sean necesarios.</li>
+      <li><strong>Oposición:</strong> oponerse al tratamiento basado en interés legítimo.</li>
+      <li><strong>Limitación del tratamiento:</strong> solicitar que suspendamos el tratamiento en determinadas circunstancias.</li>
+      <li><strong>Portabilidad:</strong> recibir sus datos en formato estructurado y de uso común.</li>
       <li><strong>Retirada del consentimiento:</strong> en cualquier momento, sin que ello afecte a la licitud del tratamiento previo.</li>
     </ul>
-    <p>Para ejercer sus derechos, env√≠e un correo a <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a> indicando el derecho que desea ejercer y adjuntando copia de su DNI u otro documento identificativo. Responderemos en el plazo m√°ximo de un mes (prorrogable dos meses m√°s en casos complejos).</p>
+    <p>Para ejercer sus derechos, envíe un correo a <a href="mailto:hola@consiguetuhogar.com" style="color:#2d6ab4;">hola@consiguetuhogar.com</a> indicando el derecho que desea ejercer y adjuntando copia de su DNI u otro documento identificativo. Responderemos en el plazo máximo de un mes (prorrogable dos meses más en casos complejos).</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">7. Derecho a reclamar ante la AEPD</h3>
-    <p>Si considera que el tratamiento de sus datos vulnera la normativa vigente, tiene derecho a presentar una reclamaci√≥n ante la <strong>Agencia Espa√±ola de Protecci√≥n de Datos (AEPD)</strong>, autoridad de control competente en Espa√±a:</p>
+    <p>Si considera que el tratamiento de sus datos vulnera la normativa vigente, tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong>, autoridad de control competente en España:</p>
     <ul style="margin:.75rem 0 .75rem 1.25rem;">
       <li>Web: <a href="https://www.aepd.es" target="_blank" rel="noopener" style="color:#2d6ab4;">www.aepd.es</a></li>
-      <li>Direcci√≥n: C/ Jorge Juan, 6, 28001 Madrid</li>
-      <li>Tel√©fono: 901 100 099</li>
+      <li>Dirección: C/ Jorge Juan, 6, 28001 Madrid</li>
+      <li>Teléfono: 901 100 099</li>
     </ul>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">8. Seguridad</h3>
-    <p>Chipinvest S.L. aplica las medidas t√©cnicas y organizativas adecuadas para garantizar la seguridad de sus datos personales y evitar su p√©rdida, alteraci√≥n, acceso no autorizado o tratamiento il√≠cito, de acuerdo con lo establecido en el art. 32 RGPD.</p>
+    <p>Chipinvest S.L. aplica las medidas técnicas y organizativas adecuadas para garantizar la seguridad de sus datos personales y evitar su pérdida, alteración, acceso no autorizado o tratamiento ilícito, de acuerdo con lo establecido en el art. 32 RGPD.</p>
 
     <h3 style="font-size:1rem;font-weight:700;color:#1a3353;margin:1.75rem 0 .5rem;">9. Modificaciones</h3>
-    <p>Podemos actualizar esta pol√≠tica para adaptarla a cambios normativos o en nuestros servicios. La versi√≥n vigente estar√° siempre disponible en esta p√°gina con la fecha de √∫ltima actualizaci√≥n. Si los cambios son relevantes, se lo comunicaremos de forma destacada.</p>
+    <p>Podemos actualizar esta política para adaptarla a cambios normativos o en nuestros servicios. La versión vigente estará siempre disponible en esta página con la fecha de última actualización. Si los cambios son relevantes, se lo comunicaremos de forma destacada.</p>
 
-    <p style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e5e7eb;font-size:.78rem;color:#9ca3af;">Chipinvest S.L. ¬∑ CIF B24897977 ¬∑ Carrer el Plom 28, nave 6, 43006 Tarragona ¬∑ <a href="mailto:hola@consiguetuhogar.com" style="color:#9ca3af;">hola@consiguetuhogar.com</a></p>
+    <p style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e5e7eb;font-size:.78rem;color:#9ca3af;">Chipinvest S.L. · CIF B24897977 · Carrer el Plom 28, nave 6, 43006 Tarragona · <a href="mailto:hola@consiguetuhogar.com" style="color:#9ca3af;">hola@consiguetuhogar.com</a></p>
   </div>
 </div>
 
@@ -1110,14 +1116,14 @@
     </div>
     <div class="footer-links">
       <a href="#" onclick="document.getElementById('modal-aviso-legal').style.display='block';return false;">Aviso legal</a>
-      <a href="#" onclick="document.getElementById('modal-privacidad').style.display='block';return false;">Pol√≠tica de privacidad</a>
-      <a href="#" onclick="document.getElementById('modal-cookies').style.display='block';return false;">Pol√≠tica de cookies</a>
+      <a href="#" onclick="document.getElementById('modal-privacidad').style.display='block';return false;">Política de privacidad</a>
+      <a href="#" onclick="document.getElementById('modal-cookies').style.display='block';return false;">Política de cookies</a>
       <a href="#" data-cc="show-preferencesModal">Gestionar cookies</a>
       <a href="mailto:hola@consiguetuhogar.com">hola@consiguetuhogar.com</a>
     </div>
   </div>
   <div class="footer-bottom">
-    ¬© 2025 ConsigueTuHogar. Todos los derechos reservados.
+    © 2025 ConsigueTuHogar. Todos los derechos reservados.
   </div>
 </footer>
 
@@ -1165,7 +1171,7 @@
       console.error(err)
       errorEl.style.display = 'block'
       btn.disabled = false
-      btn.textContent = 'Contactar con un especialista ‚Üí'
+      btn.textContent = 'Contactar con un especialista →'
     }
   })
 
@@ -1177,7 +1183,7 @@
   })
 </script>
 
-<!-- IDs de tracking ‚Äî sustituir por los reales antes de producci√≥n -->
+<!-- IDs de tracking — sustituir por los reales antes de producción -->
 <script>
   const GA_ID  = 'G-P4V8WG6148'  // Google Analytics 4
   const META_PIXEL_ID = '1405660327991727'  // Meta Pixel
@@ -1273,11 +1279,11 @@
         es: {
           consentModal: {
             title: 'Usamos cookies',
-            description: 'Utilizamos cookies para analizar el tr√°fico de la web y mostrarte publicidad relevante. Puedes aceptarlas todas, rechazarlas o elegir cu√°les permites. Para m√°s informaci√≥n consulta nuestra <a href="#politica-cookies" class="cc__link" data-cc="show-preferencesModal">Pol√≠tica de cookies</a>.',
+            description: 'Utilizamos cookies para analizar el tráfico de la web y mostrarte publicidad relevante. Puedes aceptarlas todas, rechazarlas o elegir cuáles permites. Para más información consulta nuestra <a href="#politica-cookies" class="cc__link" data-cc="show-preferencesModal">Política de cookies</a>.',
             acceptAllBtn: 'Aceptar todas',
             acceptNecessaryBtn: 'Solo las necesarias',
             showPreferencesBtn: 'Gestionar preferencias',
-            footer: '<a href="#politica-cookies" data-cc="show-preferencesModal">Pol√≠tica de cookies</a> ¬∑ <a href="#" onclick="return false;">Aviso legal</a>',
+            footer: '<a href="#politica-cookies" data-cc="show-preferencesModal">Política de cookies</a> · <a href="#" onclick="return false;">Aviso legal</a>',
           },
           preferencesModal: {
             title: 'Preferencias de cookies',
@@ -1288,35 +1294,35 @@
             serviceCounterLabel: 'Servicio|Servicios',
             sections: [
               {
-                title: 'Qu√© son las cookies',
-                description: 'Las cookies son peque√±os archivos de texto que los sitios web guardan en tu dispositivo. Nos ayudan a mejorar tu experiencia y a entender c√≥mo se usa la web. Seg√∫n la normativa espa√±ola (LSSI-CE) y el RGPD, necesitamos tu consentimiento para las cookies no estrictamente necesarias.',
+                title: 'Qué son las cookies',
+                description: 'Las cookies son pequeños archivos de texto que los sitios web guardan en tu dispositivo. Nos ayudan a mejorar tu experiencia y a entender cómo se usa la web. Según la normativa española (LSSI-CE) y el RGPD, necesitamos tu consentimiento para las cookies no estrictamente necesarias.',
               },
               {
                 title: 'Cookies estrictamente necesarias <span class="pm__badge">Siempre activas</span>',
-                description: 'Son imprescindibles para el funcionamiento b√°sico de la web: evitar env√≠os duplicados del formulario y recordar tus preferencias de cookies. No requieren consentimiento.',
+                description: 'Son imprescindibles para el funcionamiento básico de la web: evitar envíos duplicados del formulario y recordar tus preferencias de cookies. No requieren consentimiento.',
                 linkedCategory: 'necessary',
               },
               {
-                title: 'Cookies de anal√≠tica',
-                description: 'Nos permiten medir el tr√°fico y el comportamiento de los usuarios (p√°ginas visitadas, tiempo de permanencia, origen del tr√°fico). Usamos <strong>Google Analytics 4</strong> con IP anonimizada. La informaci√≥n es agregada y an√≥nima.',
+                title: 'Cookies de analítica',
+                description: 'Nos permiten medir el tráfico y el comportamiento de los usuarios (páginas visitadas, tiempo de permanencia, origen del tráfico). Usamos <strong>Google Analytics 4</strong> con IP anonimizada. La información es agregada y anónima.',
                 linkedCategory: 'analytics',
                 cookieTable: {
-                  caption: 'Cookies de anal√≠tica',
-                  headers: { name: 'Cookie', domain: 'Dominio', desc: 'Descripci√≥n', exp: 'Caducidad' },
+                  caption: 'Cookies de analítica',
+                  headers: { name: 'Cookie', domain: 'Dominio', desc: 'Descripción', exp: 'Caducidad' },
                   body: [
-                    { name: '_ga',  domain: location.hostname, desc: 'Identifica sesiones √∫nicas de usuario',      exp: '2 a√±os' },
-                    { name: '_gid', domain: location.hostname, desc: 'Distingue usuarios en el mismo d√≠a',         exp: '24 horas' },
+                    { name: '_ga',  domain: location.hostname, desc: 'Identifica sesiones únicas de usuario',      exp: '2 años' },
+                    { name: '_gid', domain: location.hostname, desc: 'Distingue usuarios en el mismo día',         exp: '24 horas' },
                     { name: '_gat', domain: location.hostname, desc: 'Limita la tasa de peticiones a GA',          exp: '1 minuto' },
                   ],
                 },
               },
               {
                 title: 'Cookies de marketing',
-                description: 'Nos permiten mostrarte anuncios relevantes en redes sociales y medir el rendimiento de nuestras campa√±as publicitarias. Usamos el <strong>Meta Pixel (Facebook/Instagram)</strong>.',
+                description: 'Nos permiten mostrarte anuncios relevantes en redes sociales y medir el rendimiento de nuestras campañas publicitarias. Usamos el <strong>Meta Pixel (Facebook/Instagram)</strong>.',
                 linkedCategory: 'marketing',
                 cookieTable: {
                   caption: 'Cookies de marketing',
-                  headers: { name: 'Cookie', domain: 'Dominio', desc: 'Descripci√≥n', exp: 'Caducidad' },
+                  headers: { name: 'Cookie', domain: 'Dominio', desc: 'Descripción', exp: 'Caducidad' },
                   body: [
                     { name: '_fbp', domain: location.hostname, desc: 'Meta Pixel: identifica el navegador para publicidad', exp: '3 meses' },
                     { name: '_fbc', domain: location.hostname, desc: 'Meta Pixel: almacena el clic de anuncio',              exp: '3 meses' },
@@ -1324,8 +1330,8 @@
                 },
               },
               {
-                title: 'M√°s informaci√≥n',
-                description: 'Puedes cambiar tus preferencias en cualquier momento pulsando en el enlace "Gestionar cookies" del pie de p√°gina. Para cualquier consulta escr√≠benos a <a class="cc__link" href="mailto:hola@consiguetuhogar.com">hola@consiguetuhogar.com</a>.',
+                title: 'Más información',
+                description: 'Puedes cambiar tus preferencias en cualquier momento pulsando en el enlace "Gestionar cookies" del pie de página. Para cualquier consulta escríbenos a <a class="cc__link" href="mailto:hola@consiguetuhogar.com">hola@consiguetuhogar.com</a>.',
               },
             ],
           },
